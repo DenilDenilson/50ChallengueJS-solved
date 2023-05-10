@@ -78,3 +78,13 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
+
+
+
+/* M e d i a  Q u e r y e s */
+
+@media screen and (max-width: 70rem) {
+  .container {
+    flex-direction: column;
+  }
+}
